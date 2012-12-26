@@ -49,7 +49,7 @@ class TwitterBot
       process_tweets_until @latest_tweet_id
       @latest_tweet_id = get_latest_tweet_id
       puts 'Sleeping'
-      sleep(1000 * 60 * 5) # Wait 5 minutes
+      sleep(60 * 5) # Wait 5 minutes
     end
   end
 
